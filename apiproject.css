@@ -1,0 +1,125 @@
+html {
+
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
+
+
+.favefood {
+    display: inline-block;
+    text-align: center;
+    font-size: 72px;
+    height: 160px;
+    background: #ee3322;
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 925;
+    position: relative;
+    border-radius: 7px;
+
+   
+}
+
+.container {
+    display: flex; 
+    flex-flow: row;
+    flex-direction: column;
+    
+}
+
+
+
+
+.food-selector {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;     
+    padding-top: 50px;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+
+.search {
+
+   border-radius: 90px;
+   width: 160px;
+   height: 40px;
+
+}
+
+.submit {
+    font-size: 15px;
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    border-radius: 9px;
+}
+
+.entersearch {
+
+    background: white;
+
+}
+
+.quizimageheadline{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+img[src="bfquiz.png"] {
+
+padding-right: 20px;
+
+}
+
+
+        
+
+
+.img-hover-zoom {
+    height: 300px; 
+    overflow: hidden; 
+  }
+  
+
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+
+  .theOffice {
+
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
+    border: 5px solid black; 
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    top: 50%;
+  }
+
+
+  
+
+
+.socialicons{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    
+
+}
+
+img {
+
+    padding-right: 10px;
+    
+}
