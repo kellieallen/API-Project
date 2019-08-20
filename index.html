@@ -10,27 +10,35 @@
     <link rel="shortcut icon" type="image/png" href="buzzfeedfav.png"/>
 </head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
+    <div class="headerArea">
 
+        <a href="http://www.buzzfeed.com"> <img src="bfheader.png" alt="Buzzfeed Header"> </a>
+    
+    </div>
     <div class = "container">
+       
 
         <div class = "quizimageheadline">
             <img src="bfquiz.png" width="10%" height="10%" alt="Buzzfeed Quiz">
-        <h1>Pick your favorite food picture and we'll tell you which Office character is your soulmate!
-            </h1></div>
-
+            <div class="headlinetext"> 
+                    
+        <h1 style="font-size:3vw;">Pick your favorite food picture and we'll tell you which Office character is your soulmate!
+            </h1></div></div>  
+<div class= "datePosted">
         <h6>Posted on August 22, 2019, at 9:46 a.m.
-            </h6>
+            </h6></div>
     
     <div class= "favefood"> 
 
             <form>
                     
-                      <label for="search">What's your favorite food?</label><br>
+                      <div id="foodQuestion"><label for="search">What's your favorite food?</label><br></div>
                       <div class ="entersearch"><input type="text" id="search" class="search" required>
                     
-                    <button class="submit">Submit search</button></div>
+                    <button class="submit">Submit</button></div>
                    
             </form>
             
@@ -64,12 +72,12 @@
                 </section>
         <div class = "food1">
                 <div class="img-hover-zoom">
-    <img id='imageOne' value="random link!" onClick="randomlinks()" src="" /> </div>
+    <img id='imageOne' value="random link!" onClick="randomlinks()" style="width:100%"> </div>
     <p id='labelOne'></p>
         </div>    
         <div class ="food2">
                 <div class="img-hover-zoom">
-    <img id='imageTwo' value="random link!" onClick="randomlinks()" src="" /> </div>
+    <img id='imageTwo' value="random link!" onClick="randomlinks()"  style="width:100%;"> </div>
     <p id='labelTwo'></p>
 
     
@@ -79,14 +87,14 @@
 <div class = "socialicons">
 
     
-    <img src="facebook.svg" height="5%" width="5%">
+    <img src="facebook.svg" height="5%" width="5%" alt="Facebook icon">
 
   
-    <img src="twitter.svg" height="5%" width="5%">
+    <img src="twitter.svg" height="5%" width="5%" alt="Twitter icon"></a>
 
 
 
-    <img src="instagram.svg" height="5%" width="5%">
+    <img src="instagram.svg" height="5%" width="5%" alt="Instagram icon">
 
 
     <div id="edamam-badge" data-color="white"></div>

@@ -1,35 +1,29 @@
 html {
 
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 70%;
+    margin: auto;
+   font-size: 16px;
+    
     
 
 }
 
 
 .favefood {
-    display: inline-block;
+    
     text-align: center;
     font-size: 72px;
-    height: 160px;
-    background: #ee3322;
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
     color: white;
     font-weight: 925;
     position: relative;
-    border-radius: 7px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: .6em;
 
-   
 }
 
-.container {
-    display: flex; 
-    flex-flow: row;
-    flex-direction: column;
-    
-}
 
 
 
@@ -38,52 +32,82 @@ html {
     display: flex;
     flex-direction: row;
     flex-flow: row;
-    justify-content: space-evenly;     
-    padding-top: 50px;
-    margin-top: 100px;
+    justify-content: space-evenly;   
     text-transform: capitalize;
+    padding-top: 1.875em;
+    margin-top: 0.625em;
+
+    padding-right: 1.250em;
+
 }
 
 .search {
 
-   border-radius: 90px;
-   width: 160px;
-   height: 40px;
+   border-radius: 5.625em;
+   
+   height: 2.5em;
+   width: 50%;
+   padding-top: .5em;
+  
+
 
 }
 
 .submit {
-    font-size: 15px;
+    font-size: 0.375em;
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
-    border-radius: 9px;
+    border-radius: 0.563em;
+    padding-bottom: .25em;
+    background-color: #f7f7f7;
+    display: inline-block;
+    width: 20%;
+    height: 1.7em;
+    font-size:2vw; 
 }
 
 .entersearch {
 
-    background: white;
-
+    
+    display: flow;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;
+    position: relative;
 }
 
 .quizimageheadline{
     display: flex;
     flex-direction: row;
+   text-align: left;
     
     
+}
+
+img[src="bfheader.png"] {
+    max-width: 100%;
+   height: auto;
+   
+
+
 }
 
 img[src="bfquiz.png"] {
 
-padding-right: 20px;
+padding-right: 1.9em;
+padding-top: .9em;
+
 
 }
+
+
 
 
         
 
 
 .img-hover-zoom {
-    height: 300px; 
-    overflow: hidden; 
+    
+    overflow: hidden;
   }
   
 
@@ -97,17 +121,18 @@ padding-right: 20px;
 
 
   .theOffice {
-
+   
     font-family: "Proxima Nova",Helvetica,Arial,sans-serif;
-    border: 5px solid black; 
-    border-radius: 10px;
-    padding: 15px;
+    border: 0.313em solid black; 
+    border-radius: 0.625em;
+    padding: 0.938em;
     background: white;
-    top: 50%;
+    margin: auto;
+    width: 80%;
+    
   }
 
 
-  
 
 
 .socialicons{
@@ -118,8 +143,43 @@ padding-right: 20px;
 
 }
 
-img {
+h1 {
 
-    padding-right: 10px;
-    
+    line-height: normal;
+}
+
+#foodQuestion {
+
+    font-size:5vw; 
+    overflow: hidden;
+    background: red;
+    border: 0.4em solid red;
+    border-radius: 0.625em;
+   height: 2.2em;
+}
+
+.datePosted {
+    margin: auto;
+    font-size:1.4vw; 
+}
+
+
+h6 {
+    margin-top: 0.313em;
+    margin-bottom: 1.250em;
+}
+
+.headerArea {
+
+  
+}
+
+.container {
+   margin-left: 3.750em;
+   margin-right: 3.750em;
+}
+
+a {
+
+    text-decoration: none;
 }
