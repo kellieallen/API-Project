@@ -39,7 +39,7 @@ function fetchResults(e) {  // sets up a new function to get results from the AP
 }
 
 
-function displayResults(json) { // creates new fucntion to display results
+function displayResults(json) { // creates new function to display results
  while (section.firstChild) { // if there is more than one search performed
    section.removeChild(section.firstChild); // remove previous search results
  }

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "buzzfeed-quiz-api-project",
     "public": "./",
     "ignore": [
       "firebase.json",
